@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* padding-top: 70px; */
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* Place text in the middle of the image */
+/* .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("../img/women.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(255, 255, 255, 0.7); /3* Black w/opacity/see-through  */ 
+    color: #424242;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-text img {
+      max-height: 15vh;
+  }
+/* #navigation {
+    background-color: rgba(72, 8, 111, 0.4);
+    border: 0 none;
+    margin: 0;
+} */
+nav {
+    position: sticky;
+    background-color: white;
+}
+
+
+.navbar-brand {
+    padding: 0;
+}
+
+/* .logo {
+    margin: 0;
+} */
+
+img.logo {
+    padding-top: 0px;
+    width: 200px;
+    height: auto;
+}
+
+button {
+    margin: 20px;
+
+}
+.head-logo {
+    margin: 20px;
+}
+
+/* iframe {
+    margin: 25%;
+} */
