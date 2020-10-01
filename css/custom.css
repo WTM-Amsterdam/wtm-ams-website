@@ -81,14 +81,21 @@ img.logo {
     height: auto;
 }
 
-button {
+/* button {
     margin: 20px;
+    color: white;
+    background-color: rgb(66, 133, 244); */
 
-}
+/* } */
 .head-logo {
     margin: 20px;
 }
 
+a[role=button] {
+    margin: 20px;
+    color:rgb(0, 98, 255);
+    background-color: white;
+}
 /* iframe {
     margin: 25%;
 } */
