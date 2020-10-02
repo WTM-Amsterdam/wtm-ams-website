@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     /* padding-top: 70px; */
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -53,6 +54,7 @@ h1 {
     padding: 20px;
     text-align: center;
   }
+
   .bg-text img {
       max-height: 15vh;
   }
@@ -91,11 +93,72 @@ img.logo {
     margin: 20px;
 }
 
-a[role=button] {
+/* a[role=button] {
     margin: 20px;
     color:rgb(0, 98, 255);
     background-color: white;
-}
+} */
 /* iframe {
     margin: 25%;
 } */
+/* body > div.bg-text > a {
+    margin: 20px;
+    color:rgb(0, 98, 255) !important;
+    background: #4fc3f7 !important;
+}  */
+
+/* .btn-lg.btn-primary.active {
+    background: #4fc3f7 !important;
+} */
+
+.button {
+  
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: relative;
+    text-decoration: none;
+    text-transform: none
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    /* text-shadow:1px 1px 0px rgba(0,0,0,0.5); */
+    background-color: #4fc3f7;
+    color:white;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    text-decoration: none;
+    border: 2px solid #4fc3f7;
+    background-color: white;
+    color:#4fc3f7;
+    /* border: 8px; */
+    /* border: 20px #4fc3f7; */
+  }
+
+  /* iframe {
+    display: flex; width: 100%; height: 100%; border: none; overflow: auto;
+  } */
+
+  /* #down {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  } */
+/* .button.active {
+    background-color: #4fc3f7;
+    color:rgb(255,255,255);
+} */
+
+
+/* .embed-responsive {
+        width:600px;
+       height:100%; 
+} */
+
+
+/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsYXeTqP01e3zWG0oqUzZ_LbSotvF2ybRojG2Sl7m4dRikmw/viewform?embedded=true" width="640" height="1387" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */
