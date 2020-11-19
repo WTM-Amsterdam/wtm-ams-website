@@ -3,6 +3,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     color: #666666;
     margin: 0;
+    background-color: #666666;
     /* padding-top: 70px; */
     /* overflow: hidden; */
 }
@@ -42,7 +43,7 @@ h1 {
   /* Position text in the middle of the page/image */
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
-     background-color: rgba(255, 255, 255, 0.7); /3* Black w/opacity/see-through  */ 
+    background-color: rgba(255, 255, 255, 0.7); /3* Black w/opacity/see-through  */ 
     font-weight: bold;
     border: 3px solid #f1f1f1;
     border-radius: 25px;
@@ -51,7 +52,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
+    width: 75%;
     padding: 20px;
     text-align: center;
   }
@@ -256,3 +257,6 @@ img.logo {
     color: white;
   }
 
+  .footer {
+      background-color: #4285f4;
+  }
