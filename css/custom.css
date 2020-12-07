@@ -1,9 +1,15 @@
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+<<<<<<< Updated upstream
     color: #666666;
     margin: 0;
     background-color: #666666;
+=======
+    color: rgba(65, 64, 66);
+    margin: 0;
+    background-color: rgba(65, 64, 66);
+>>>>>>> Stashed changes
     /* padding-top: 70px; */
     /* overflow: hidden; */
 }
@@ -14,6 +20,7 @@ h1 {
 
 section { 
     min-height:100%; 
+<<<<<<< Updated upstream
     margin-top: 40px !important;
 
     
@@ -22,13 +29,27 @@ section {
 .container-fluid {
     padding-left: 45px;
     padding-right: 45px;
+=======
+    /* margin-top: 40px !important; */
+    padding-top: 40px !important;
+    max-width: 1300px;
+    /* padding-right: 50px; */
+}
+.container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+>>>>>>> Stashed changes
 }
 /* .nomargin {margin-right: -40;} */
 
 a.anchor {
     display: block;
     position: relative;
+<<<<<<< Updated upstream
     top: -160px;
+=======
+    top: -100px;
+>>>>>>> Stashed changes
     visibility: hidden;
 }
 
@@ -49,11 +70,19 @@ a.anchor {
     left: 0;
     right: 0;
     bottom: 0;
+<<<<<<< Updated upstream
     background-image: url("../img/women.jpg");
   
     /* Add the blur effect */
     filter: blur(2px);
     -webkit-filter: blur(2px);
+=======
+    background-image: url("../img/ams-1.jpg");
+  
+    /* Add the blur effect */
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(2px); */
+>>>>>>> Stashed changes
   
     /* Full height */
     height: 100%; 
@@ -66,8 +95,14 @@ a.anchor {
   
   /* Position text in the middle of the page/image */
   .jumbotron .bg-text {
+<<<<<<< Updated upstream
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(255, 255, 255, 0.7); /3* Black w/opacity/see-through  */ 
+=======
+    color: white;
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(65, 64, 66, 0.7); /3* Black w/opacity/see-through  */ 
+>>>>>>> Stashed changes
     font-weight: bold;
     border: 3px solid #f1f1f1;
     border-radius: 25px;
@@ -242,15 +277,20 @@ img.logo {
     transition: all 1s ease;
 }
 
-.row{ &:before, &:after{ display: block; } }
+.row{ 
+  &:before, &:after{ 
+    display: block; 
+  } 
+}
 
 
 /* h1{float:left; width:100%; color:#232323; margin-bottom:30px; font-size: 14px;}
 h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
 h1 a{color:#131313; font-weight:bold;} */
 .col-sm{
-    min-width: 275px;
-    max-width: 350px;
+    min-width: 400px;
+    max-width: 400px;
+    margin-bottom:15px;
 }
 
 /*Profile Card 3*/
@@ -261,7 +301,7 @@ h1 a{color:#131313; font-weight:bold;} */
   overflow: hidden;
   width: 100%;
   text-align: center;
-  height:368px;
+  height:550px;
   border:none;
   
 }
@@ -286,7 +326,7 @@ h1 a{color:#131313; font-weight:bold;} */
   color:#232323;
   float:left;
   background:#efefef;
-  height:50%;
+  height:70%;
   border-radius:0 0 5px 5px;
   position: relative;
   z-index: 9999;
@@ -351,3 +391,21 @@ h1 a{color:#131313; font-weight:bold;} */
   text-decoration:none;
 }
 
+#events {
+  background-color: #00bfa5;
+}
+
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 8px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 8px #efefef solid;
+}
+
+.row-striped {
+
+    padding: 10px 0;
+}
