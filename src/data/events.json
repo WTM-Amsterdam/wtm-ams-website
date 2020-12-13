@@ -1,0 +1,19 @@
+[{
+  "title": "Ice Cream Social",
+  "day": 3,
+  "weekDay": "Monday",
+  "year": "2021",
+  "month": "OCT",
+  "timeslot": "12:30 - 14:00",
+  "location": "Cafe",
+  "description": "Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "title": "Some event",
+  "day": 21,
+  "weekDay": "Monday",
+  "year": "2021",
+  "month": "NOV",
+  "timeslot": "14:30 - 16:00",
+  "location": "Cafe",
+  "description": "Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}]
