@@ -1,0 +1,370 @@
+body, html {
+    height: 100%;
+    font-family: 'Nunito', 'Helvetica', 'Arial', sans-serif;
+    color: rgba(65, 64, 66, 1);
+    margin: 0;
+    background-color: rgba(65, 64, 66, 1);
+    /* padding-top: 70px; */
+    /* overflow: hidden; */
+}
+
+html, body, #___gatsby, #gatsby-focus-wrapper {
+    height: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+section {
+    min-height:100%;
+    /* margin-top: 40px !important; */
+    padding-top: 40px !important;
+    max-width: 1300px;
+    /* padding-right: 50px; */
+}
+.container-fluid {
+    max-width: 980px;
+    margin: auto;
+}
+/* .nomargin {margin-right: -40;} */
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+.about-header {
+    color:white;
+
+}
+
+.about-text {
+    color:white;
+    margin-bottom: 45px;
+}
+
+.jumbotron .bg-img {
+    /* The image used */
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    filter: blur(2px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.jumbotron .bg-text {
+    color: white;
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(65, 64, 66, 0.7); /* Black w/opacity/see-through  */
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+
+.bg-text img {
+    max-height: 15vh;
+}
+
+nav {
+    position: sticky;
+    background-color: white;
+
+}
+
+.navbar {
+    z-index:999999999;
+}
+
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+img.logo {
+    padding-top: 0;
+    width: 200px;
+    height: auto;
+}
+
+
+.head-logo {
+    margin: 20px;
+}
+
+
+.button {
+
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    /* text-shadow:1px 1px 0px rgba(0,0,0,0.5); */
+    background-color: #4fc3f7;
+    color:white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    text-decoration: none;
+    border: 2px solid #4fc3f7;
+    background-color: white;
+    color:#4fc3f7;
+    /* border: 8px; */
+    /* border: 20px #4fc3f7; */
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+
+
+.cover-thing {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.first {
+    /* background-color: #333; */
+    color: white;
+}
+
+.second {
+    /* background-color: #eee; */
+}
+
+.third {
+    /* background-color: #f06; */
+}
+
+
+.icon-bar.vertical {
+    z-index:99999999;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar.vertical a {
+    display: block;
+}
+/* Style the icon bar links */
+.icon-bar a {
+    text-align: center;
+    padding: 8px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+
+.footer {
+    background-color: #4285f4;
+    padding: 5px;
+}
+
+.instagram {
+    background: #C13584;
+    color: white;
+}
+
+.facebook {
+    background: #4267B2;
+    color: white;
+}
+
+.twitter {
+    background: #1DA1F2;
+    color: white;
+}
+
+.discord {
+    background: #7289DA;
+    color: white;
+}
+
+.linkedin {
+    background: #2867B2;
+    color: white;
+}
+
+.meetup {
+    background: #ED1C40;
+    color: white;
+}
+
+
+
+
+
+a:hover{
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* h1{float:left; width:100%; color:#232323; margin-bottom:30px; font-size: 14px;}
+h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
+h1 a{color:#131313; font-weight:bold;} */
+.col-sm{
+    min-width: 400px;
+    max-width: 400px;
+    margin-bottom:15px;
+}
+.icon-block{
+    width:100%;
+    padding: 15px 0 15px;
+}
+
+.icon-block a{
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    text-decoration:none;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.icon-block a:hover {
+    background-color: #00bfa5;
+    color: white;
+}
+
+
+#events {
+    background-color: #cecece;
+}
+
+.header-dark {
+    color: #333;
+}
+
+.row-striped {
+    background-color: #ffffff;
+    border-left: 8px #00bfa5 solid;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.person{
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 9px 0 #0000001a;
+    margin-bottom: 15px;
+}
+.person .personimg:before {
+    transition: all 0.4s linear;
+}
+
+
+.person:hover .personimg:before {
+    opacity: 0;
+}
+.person p {margin: 0}
+.personimg {position: relative;width: 100%}
+.personimg img {width:100%}
+.personimg:before{
+    opacity: 1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #005e9694, rgba(181, 181, 181, 0))
+}
+
+.persondetail {position: relative;margin-top: 10px}
+.persondetail:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    top: -24px;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+    z-index: 5;
+    transform: skewY(-3deg);
+}
+.persondetail p.personunvan {font-weight: 600; font-size: 15px;color: #000}
+.persondetail p.persontitle {font-size: 13px;color: #666;margin: 5px 0}
+.personcontact {
+    border-top: 1px solid #eee;
+    padding-top: 7px;
+    color: #676767;
+    font-size: 13px;
+}
+.personcontact p.personemail{}
+.personcontact p.persontelefon{padding-top: 7px}
+.personcontact p.personCV {margin-top: 10px}
+.personcontact p.personCV a{
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 0;
+    border-top: 2px solid #eaeaea;
+    font-size: 13px;
+    font-weight: 600;
+    color: #989898;
+}
+.person:hover .personCV a {
+    background: #be3f48;
+    color: #fff;
+    border-top: 2px solid #902e35;
+    transition: all 0.4s;
+}
+
+@media screen and (max-width: 991.98px) {
+    .mobilmt{margin-top:50px}
+    .persondetail:before {height: 34px;top: -30px}
+}

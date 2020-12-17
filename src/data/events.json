@@ -1,0 +1,35 @@
+[{
+  "title": "How to Master Your Remote Interview: Tips from Two Google Recruiter",
+  "day": 27,
+  "weekDay": "Wednesday",
+  "year": "2020",
+  "month": "May",
+  "timeslot": "17:00 - 18:00",
+  "location": "https://www.youtube.com/watch?v=Ogg2wMOi33c",
+  "description":  "Join our online meetup with two Google Recruiters as they share their experience and top tips on how to prepare for any remote interview.",
+  "link": "https://www.meetup.com/gdg-nl/events/270741271"
+},
+{
+  "title": "Machine Learning 101",
+  "day": 2,
+  "weekDay": "Tuesday",
+  "year": "2020",
+  "month": "June",
+  "timeslot": "17:00 - 18:30",
+  "location": "Online",
+  "description":  "Do you want to know what machine learning is, how it works, what you can do with it, and why it is such a big deal?",
+  "link": "https://www.meetup.com/gdg-nl/events/270926452/"
+},
+
+{
+  "title": "How to Design Human-Centered AI Applications",
+  "day": 17,
+  "weekDay": "Wednesday",
+  "year": "2020",
+  "month": "June",
+  "timeslot": "17:00 - 18:00",
+  "location": "Online",
+  "description": "For those of you in the business of designing applications that involve interaction between AI and human users, you know that building a user-friendly application requires smart and thoughtful design.",
+  "link": "https://www.meetup.com/gdg-nl/events/271035951/"
+}
+]
