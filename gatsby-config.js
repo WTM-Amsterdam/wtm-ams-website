@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/wtm-ams-website",
+  pathPrefix: "/",
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
