@@ -11,7 +11,7 @@ const EventSection = () => {
                           weekDay,
                           year,
                           month,
-                          timeslot, location
+                          timeslot, location, description, link
                         }) => (
           <div key={title} className="row row-striped">
             <div className="col-2 text-center">
@@ -32,8 +32,10 @@ const EventSection = () => {
                 <li className="list-inline-item"><i className="fa fa-location-arrow" aria-hidden="true"></i> {location}
                 </li>
               </ul>
-              <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+              <p>{description}</p>
+              <a href={link} target="_blank">
+               Visit event page
+              </a>
             </div>
           </div>
         ))}
